@@ -1,0 +1,86 @@
+<!-- ============== DOCUMENT HEAD ===================================================== -->
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!--TITLE-->
+  <title>The Knowledge Project</title>
+</head>
+<body style="background:#303038;">
+
+  <!-- ============== NAV PANEL ======================================================== -->
+  <nav class="navbar bg-dark navbar-dark fixed-top border-1 border-bottom border-info">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="display-6 text-info">THE KNOWLEDGE PROJECT</span></a>
+      <div class="d-flex">
+        <!-- REF -->
+        <a class="navbar-brand d-flex" href="layout.html"><span class="text-info">LAYOUT TEST</span></a>
+      </div>
+    </div>
+  </nav><div class="container mt-5 py-5">
+
+<!-- ============== CARDS ======================================================== -->
+
+<div class="row gx-4 pt-5 pb-0"><div class="col"><div class="card border border-0">
+  <div class="card-body bg-dark border border-0 text-center"><h4 class="text-info">SOUČASNÉ</h4></div></div></div>
+</div>
+
+  <div class="row gx-5 pt-4">
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/anatomie.html"><h6 class="text-info">ANA - ANATOMIE</h6></a></div></div>
+    </div>
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/histologie.html"><h6 class="text-info">ANA - HISTOLOGIE</h6></a></div></div>
+    </div>
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/biochemie.html"><h6 class="text-info">BCH - BIOCHEMIE</h6></a></div></div>
+    </div>
+  </div>
+  <div class="row gx-5 pt-4">
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/elektro.html"><h6 class="text-info">ELS - ELEKTRO SEMINÁŘ</h6></a></div></div>
+    </div>
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/fyzika.html"><h6 class="text-info">FY - FYZIKA</h6></a></div></div>
+    </div>
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/fyziologie.html"><h6 class="text-info">FYZ - FYZIOLOGIE</h6></a></div></div>
+    </div>
+  </div>
+  <div class="row gx-5 pt-4">
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-primary pb-2 text-center">
+          <a class="text-decoration-none" href="subjects/matematika.html"><h6 class="text-info">MA - MATEMATIKA</h6></a></div></div>
+    </div>
+    <div class="col">
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+  <div class="row gx-4 pt-5 pb-0"><div class="col"><div class="card border border-0">
+    <div class="card-body bg-dark border border-0 text-center"><h4 class="text-info">ARCHIV</h4></div></div></div>
+  </div>
+
+<!-- ============== BOTTOM SPACER + POPOVER SCRIPT + BODY END ========================================== -->
+</div><div class="card border border-0"><div class="card-body bg-dark"></div></div>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+</body>
+</html>

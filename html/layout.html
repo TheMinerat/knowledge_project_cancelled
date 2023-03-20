@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../css/public.css" rel="stylesheet">
+    <title>Layout test</title>
+  </head>
+
+  <body id="bg303038">
+
+<!-- __________ NAV PANEL __________________________________________________ -->
+    <nav class="navbar bg-dark navbar-dark fixed-top border-1 border-bottom border-info">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="display-6" id="c66C6D2">LAYOUT TEST</span></a>
+        <div class="d-flex">
+          <a class="navbar-brand d-flex" href="index.html"><span id="c66C6D2">HOME &nbsp&nbsp</span></a>
+          <a class="navbar-brand d-flex" href="#"><span id="c66C6D2">HERE &nbsp&nbsp</span></a>
+          <a class="navbar-brand d-flex text-info" data-bs-toggle="modal" data-bs-target="#layoutTest"><span id="c66C6D2">TEST</span></a>
+        </div>
+      </div>
+    </nav><div class="container mt-5 pt-5">
+
+<!-- __________ TEST MODAL __________________________________________________ -->
+    <div class="modal" id="layoutTest">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content border border-0">
+          <div class="modal-header bg-dark border-bottom border-2 border-info text-info">
+            <h4 class="modal-title">TEST HEADER</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+
+            <span class="text-info">1. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+            <span class="text-info">2. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+            <span class="text-info">3. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+            <span class="text-info">4. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test image question</a><br>
+            <img width="50%" src="../img/placeholders/placeholder-1x1.png"><br><br>
+
+            <span class="text-info">5. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test image question</a><br>
+            <img width="100%" src="../img/placeholders/placeholder-2x1.png"><br><br>
+
+            <span class="text-info">6. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test image question</a><br>
+            <img width="67%" src="../img/placeholders/placeholder-3x2.png"><br><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- __________ TEXT CARDS __________________________________________________ -->
+
+<!--  WIDE ROW -->
+      <div class="row gx-5 pt-4">
+
+        <!-- WIDE TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center">
+              <h6 id="c66C6D2">WIDE TEXT CARD</h6></div><div class="card-footer bg-dark text-white text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+            </div></div>
+        </div>
+        <!-- wide text card end -->
+
+      </div>
+<!--  wide row end -->
+
+<!--   NORMAL ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- NORMAL TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+              <h6 id="c66C6D2">NORMAL TEXT CARD</h6></div><div class="card-footer bg-dark text-white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+              sed do eiusmod tempor incididunt ut labore et dolore magna.
+            </div></div>
+        </div>
+        <!-- normal text card end -->
+
+        <!-- NORMAL TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+              <h6 id="c66C6D2">NORMAL TEXT CARD</h6></div><div class="card-footer bg-dark text-white">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br>
+              sed do eiusmod tempor incididunt ut labore et dolore magna.
+            </div></div>
+        </div>
+        <!-- normal text card end -->
+
+      </div>
+<!--  normal row end -->
+
+<!--   THIN ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- THIN TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+              <h6 id="c66C6D2">THIN TEXT CARD</h6></div><div class="card-footer bg-dark text-white">
+              Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
+            </div></div>
+        </div>
+        <!-- thin text card end -->
+
+        <!-- THIN TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+              <h6 id="c66C6D2">THIN TEXT CARD</h6></div><div class="card-footer bg-dark text-white">
+              Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
+            </div></div>
+        </div>
+        <!-- thin text card end -->
+
+        <!-- THIN TEXT CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+              <h6 id="c66C6D2">THIN TEXT CARD</h6></div><div class="card-footer bg-dark text-white">
+              Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
+            </div></div>
+        </div>
+        <!-- thin text card end -->
+
+      </div>
+<!--  thin row end -->
+
+<!-- __________ SECTION SPLITTER __________________________________________________ -->
+      <div class="row gx-4 pt-5 pb-4"><div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-0 text-center"></div></div></div>
+      </div>
+
+<!-- __________ REF CARDS __________________________________________________ -->
+
+<!--  WIDE ROW -->
+      <div class="row gx-5 pt-4">
+
+        <!-- WIDE REF EXAMPLE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <d  iv class="card-header bg-dark border border-0 pb-0 text-center"><div class="card-footer bg-dark text-white text-center">
+
+              <!-- IMAGE POPOVER REF -->
+              <a class="text-decoration-none" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+              title="Popover header" data-bs-html="true"
+              data-bs-content="lorem ipsum dolor sit amet
+              <br><br><img width='100%' src='../img/placeholders/placeholder-2x1.png'>">
+              image popover</a>
+
+              <br>
+
+              <!-- TEXT POPOVER REF -->
+              <a href="#" class="text-decoration-none" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+              title="Popover header"
+              data-bs-content="Lorem ipsum dolor sit amet">
+              text popover ref</a>
+
+              <br>
+
+              <!-- TEXT POPOVER -->
+              <a class="text-decoration-none" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+              title="Popover header"
+              data-bs-content="Lorem ipsum dolor sit amet">
+              text popover</a>
+
+              <br>
+
+              <!-- TEXT REF -->
+              <a href="#" class="text-decoration-none">
+              text ref</a>
+
+            </div></div>
+        </div>
+        <!-- wide ref example card end -->
+
+      </div>
+<!--  wide row end -->
+
+<!--  REF ROW -->
+      <div class="row gx-5 pt-4">
+
+        <!-- REF CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-body bg-dark border border-0 text-center">
+            <a href="#" class="text-decoration-none" data-bs-toggle="popover" data-bs-trigger="hover" title="Popover header" data-bs-content=
+            "Lorem ipsum dolor sit amet"><h6 id="c66C6D2">HEADER POPOVER REF</h6></a>
+          </div></div>
+        </div>
+        <!-- ref card end -->
+
+        <!-- REF CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-body bg-dark border border-0 text-center">
+            <a class="text-decoration-none" data-bs-toggle="popover" data-bs-trigger="hover" title="Popover header" data-bs-content=
+            "Lorem ipsum dolor sit amet"><h6 id="c66C6D2">HEADER POPOVER</h6></a>
+          </div></div>
+        </div>
+        <!-- ref card end -->
+
+        <!-- REF CARD -->
+        <div class="col">
+          <div class="card border border-0"><div class="card-body bg-dark border border-0 text-center">
+            <a href="#" class="text-decoration-none"><h6 id="c66C6D2">HEADER REF</h6></a>
+          </div></div>
+        </div>
+        <!-- ref card end -->
+
+      </div>
+<!--  ref row end -->
+
+<!-- __________ HEADER SPLITTER __________________________________________________ -->
+    <div class="row gx-4 pt-5 pb-0"><div class="col"><div class="card border border-0">
+      <div class="card-body bg-dark border border-0 text-center"><h6 id="c66C6D2">HEADER</h6><span class="text-white">TEXT</span></div></div></div>
+    </div>
+
+<!-- __________ SUBHEADER SPLITTER __________________________________________________ -->
+    <div class="row gx-4 pt-4 pb-0"><div class="col"><div class="card border border-0">
+      <div class="card-body bg-dark border border-0 text-center">
+        <span class="text-white">TEXT</span></div></div></div>
+    </div>
+
+<!-- __________ IMAGE CARDS __________________________________________________ -->
+
+<!--  WIDE ROW -->
+      <div class="row gx-5 pt-4">
+
+        <!-- WIDE IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-4x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- wide image card end -->
+
+      </div>
+<!--  wide row end -->
+
+<!--  WIDE ROW -->
+      <div class="row gx-5 pt-4">
+
+        <!-- WIDE IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-2x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- wide image card end -->
+
+      </div>
+<!--  wide row end -->
+
+<!--   NORMAL ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- NORMAL IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-2x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- normal image card end -->
+
+        <!-- NORMAL IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-3x2.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- normal image card end -->
+
+      </div>
+<!--  normal row end -->
+
+<!--   NORMAL ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- NORMAL IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-4x3.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- normal image card end -->
+
+        <!-- NORMAL IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-1x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- normal image card end -->
+
+      </div>
+<!--  normal row end -->
+
+<!--   THIN ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-3x2.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-4x3.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-1x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+      </div>
+<!--  thin row end -->
+
+<!--   THIN ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-3x4.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-2x3.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+        <!-- THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-1x2.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- thin image card end -->
+
+      </div>
+<!--  thin row end -->
+
+<!--  EXTRA THIN ROW -->
+      <div class="row gx-4 pt-4">
+
+        <!-- EXTRA THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-1x1.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- extra thin image card end -->
+
+        <!-- EXTRA THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-3x4.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- extra thin image card end -->
+
+        <!-- EXTRA THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-2x3.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- extra thin image card end -->
+
+        <!-- EXTRA THIN IMAGE CARD -->
+        <div class="col">
+          <div class="card border border-0">
+            <div class="card-header bg-dark border border-0 pb-0 text-center"><h6 id="c66C6D2">IMAGE HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-3x4.png" width="100%">image description
+            </div>
+            <div class="card-footer bg-dark text-white text-center">image text</div></div>
+        </div>
+        <!-- extra thin image card end -->
+
+      </div>
+<!--  extra thin row end -->
+
+
+<!-- __________ BOTTOM SPACER __________________________________________________ -->
+      <div class="row gx-0 pt-5"><div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-0 text-center">image text</div></div></div>
+      </div>
+
+
+    </div>
+<!-- card space end // card space end // card space end // card space end -->
+
+<!-- __________ POPOVER SCRIPT __________________________________________________ -->
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+
+  </body>
+</html>

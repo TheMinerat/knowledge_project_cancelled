@@ -1,0 +1,144 @@
+<!-- ============== DOCUMENT HEAD ===================================================== -->
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link href="../css/public.css" rel="stylesheet">
+<!--TITLE-->
+  <title>TITLE</title>
+</head>
+<body style="background:#303038;">
+
+<!-- ============== NAV PANEL ======================================================== -->
+  <nav class="navbar bg-dark navbar-dark fixed-top border-1 border-bottom border-info">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="display-6 text-info">LAYOUT TEST</span></a>
+      <div class="d-flex">
+        <!-- HOME REF -->
+        <a class="navbar-brand d-flex" href="index.html"><span class="text-info">HOME &nbsp&nbsp</span></a>
+        <!-- CUSTOM REF -->
+        <a class="navbar-brand d-flex" href="#"><span class="text-info">HERE &nbsp&nbsp</span></a>
+        <!-- TEST REF -->
+        <a class="navbar-brand d-flex text-info" data-bs-toggle="modal" data-bs-target="#layoutTest"><span class="text-info">TEST</span></a>
+      </div>
+    </div>
+  </nav><div class="container mt-5 pt-5">
+
+<!-- ============== CARDS ======================================================== -->
+
+    <!-- ROW -->
+    <div class="row gx-5 pt-4"></div>
+    <!-- ROW END -->
+
+    <!-- HEADER CARD -->
+    <div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-0 pb-0 text-center">
+          <h6 class="text-info">HEADER</h6></div></div></div>
+
+      <!-- TEXT CARD -->
+      <div class="col"><div class="card border border-0">
+          <div class="card-header bg-dark border border-0 pb-0 text-center">
+            <h6 class="text-info">HEADER</h6></div><div class="card-footer bg-dark text-white text-center">
+            TEXT
+      </div></div></div>
+
+      <!-- IMAGE CARD -->
+      <div class="col"><div class="card border border-0">
+          <div class="card-header bg-dark border border-0 pb-0 text-center">
+            <h6 class="text-info">HEADER</h6></div>
+            <div class="card-body bg-dark border border-0 pb-0 text-center text-secondary">
+              <img src="../img/placeholders/placeholder-4x1.png" width="100%">DESCRIPTION
+            </div><div class="card-footer bg-dark text-white text-center">
+            TEXT
+      </div></div></div>
+
+<!-- ============== REFS ======================================================== -->
+
+      <!-- TEXT - IMAGE POPOVER -->
+      <a class="text-primary" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+      title="HEADER" data-bs-html="true"
+      data-bs-content="TEXT
+      <br><br><img width='100%' src='../img/placeholders/placeholder-2x1.png'>">
+      TEXT</a>
+
+      <!-- TEXT - TEXT POPOVER -->
+      <a class="text-primary" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+      title="HEADER"
+      data-bs-content="TEXT">
+      TEXT</a>
+
+      <!-- TEXT - REF -->
+      <a  class="text-primary" href="#">TEXT</a>
+
+      <!-- HEADER - IMAGE POPOVER -->
+      <a class="text-primary" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+      title="HEADER" data-bs-html="true"
+      data-bs-content="TEXT
+      <br><br><img width='100%' src='../img/placeholders/placeholder-2x1.png'>">
+      <h6 class="text-info">TEXT</h6></a>
+
+      <!-- HEADER - TEXT POPOVER -->
+      <a class="text-primary" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+      title="HEADER"
+      data-bs-content="TEXT">
+      <h6 class="text-info">TEXT</h6></a>
+
+      <!-- HEADER - REF -->
+      <a  class="text-primary" href="#"><h6 class="text-info">TEXT</h6></a>
+
+<!-- ============== SPLITTERS ======================================================== -->
+
+      <div class="row gx-4 pt-5 pb-0"><div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-0 text-center"><h6 class="text-info">HEADER</h6>
+          <span class="text-white">TEXT</span></div></div></div>
+      </div>
+
+      <div class="row gx-4 pt-4 pb-0"><div class="col"><div class="card border border-0">
+        <div class="card-body bg-dark border border-0 text-center">
+          <span class="text-white">TEXT</span></div></div></div>
+      </div>
+
+
+<!-- ============== TEST MODAL ======================================================== -->
+  <div class="modal" id="layoutTest">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content border border-0">
+        <div class="modal-header bg-dark border-bottom border-2 border-info text-info">
+          <h4 class="modal-title">TEST HEADER</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body bg-dark text-white">
+
+          <!-- TEXT QUESTION -->
+          <span class="text-info">1. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+          data-bs-content="Test answer">
+          Test question</a><br><br>
+
+          <!-- IMAGE QUESTION -->
+          <span class="text-info">4. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+          data-bs-content="Test answer">
+          Test image question</a><br>
+          <img width="50%" src="../img/placeholders/placeholder-1x1.png"><br><br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- ============== BOTTOM SPACER + POPOVER SCRIPT + BODY END ========================================== -->
+  </div><div class="card border border-0"><div class="card-body bg-dark"></div></div>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+</body>
+</html>

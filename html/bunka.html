@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../css/public.css" rel="stylesheet">
+    <title>Buňka</title>
+  </head>
+
+  <body id="bg303038">
+
+<!-- __________ NAV PANEL __________________________________________________ -->
+    <nav class="navbar bg-dark navbar-dark fixed-top border-1 border-bottom border-info">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="display-6" id="c66C6D2">BUŇKA</span></a>
+        <div class="d-flex">
+          <a class="navbar-brand d-flex" href="index.html"><span id="c66C6D2">HOME &nbsp&nbsp</span></a>
+          <a class="navbar-brand d-flex" href="anah.html"><span id="c66C6D2">HISTOLOGIE &nbsp&nbsp</span></a>
+          <a class="navbar-brand d-flex text-info" data-bs-toggle="modal" data-bs-target="#layoutTest"><span id="c66C6D2">TEST</span></a>
+        </div>
+      </div>
+    </nav><div class="container mt-5 pt-5">
+
+<!-- __________ TEST MODAL __________________________________________________ -->
+    <div class="modal" id="layoutTest">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content border border-0">
+          <div class="modal-header bg-dark border-bottom border-2 border-info text-info">
+            <h4 class="modal-title">BUŇKA - TEST</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body bg-dark text-white">
+
+            <span class="text-info">1. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+            <span class="text-info">2. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+            <span class="text-info">3. </span><a data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom"
+            data-bs-content="Test answer">
+            Test question</a><br><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--  REF ROW -->
+    <div class="row gx-5 pt-4">
+
+      <!-- REF CARD -->
+      <div class="col">
+        <div class="card border border-0"><div class="card-body bg-dark border border-0 text-center">
+          <a href="bunkaStruktura.html" class="text-decoration-none"><h6 id="c66C6D2">STRUKTURA</h6></a>
+        </div></div>
+      </div>
+      <!-- ref card end -->
+
+      <!-- REF CARD -->
+      <div class="col"></div>
+      <!-- ref card end -->
+
+      <!-- REF CARD -->
+      <div class="col"></div>
+      <!-- ref card end -->
+
+    </div>
+<!--  ref row end -->
+
+<!--   NORMAL ROW -->
+    <div class="row gx-4 pt-4">
+
+      <!-- NORMAL TEXT CARD -->
+      <div class="col">
+        <div class="card border border-0"><div class="card-header bg-dark border border-0 pb-0">
+            <h6 id="c66C6D2">Životní projevy</h6></div><div class="card-footer bg-dark text-white">
+            - <b>Pinocytóza</b> = příjem látek pomocí váčků <br>
+            - <b>Buněčný cyklus</b> <br>
+            &nbsp &nbsp - [G1] <i>Růst</i><br>
+            &nbsp &nbsp - [S] <i>Replikace chromosomů</i><br>
+            &nbsp &nbsp - [G2] <i>Příprava na mitózu</i><br>
+            &nbsp &nbsp - [M] <i>Mitóza</i><br>
+            &nbsp &nbsp - [G0] <i>Zastavený cyklus</i><br>
+            &nbsp &nbsp &nbsp &nbsp - U neuronů a svalových buněk je trvalá<br>
+            - <b>Mitóza</b><br>
+            &nbsp &nbsp - Buněčné dělení, <i>profáze, metafáze, anafáze, telofáze</i>
+          </div></div>
+      </div>
+      <!-- normal text card end -->
+
+      <!-- NORMAL TEXT CARD -->
+      <div class="col"></div>
+      <!-- normal text card end -->
+
+
+    </div>
+<!--  normal row end -->
+
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+
+  </body>
+</html>
